@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: #9ac397;
+}
+
+.title {
+  margin-bottom: 75px;
+}
+
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+
+.innerContainer {
+  columns: 2;
+}
+
+.artistPortrait {
+  width: 75%;
+  height: auto;
+  box-shadow: 0 0 15px 5px #9ac397; 
+  border-radius: 300px; 
+}
+
+.lilUziWordmark {
+  width: 20%;
+  height: auto;
+  right: 350px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  position: absolute;
+}
+
+.colRight h2 {
+  padding-top: 100px;
+}
